@@ -1,0 +1,21 @@
+/* Title bar */
+
+.title-bar {
+background: #00b8c4;
+background: -moz-linear-gradient(top,  #00b8c4 0%, #00a2ad 100%);
+background: -webkit-linear-gradient(top,  #00b8c4 0%,#00a2ad 100%);
+background: linear-gradient(to bottom,  #00b8c4 0%,#00a2ad 100%);*/
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b8c4', endColorstr='#00a2ad',GradientType=0 );
+
+}
+
+/* Dropdown */
+
+.dropdown-toggle::after{
+  float: right;
+  position: relative;
+  top: 0;
+  border: 0 none !important;
+  content: "\f078" !important;
+  font-family: FontAwesome;
+}
