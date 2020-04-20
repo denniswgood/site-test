@@ -11,6 +11,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b8c4', end
 
 /* Dropdown */
 
+.dropdown.drop-with-prepend {
+  display: flex;
+  flex: 1;
+}
+
 .dropdown-toggle::after{
   float: right;
   position: relative;
