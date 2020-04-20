@@ -1,8 +1,8 @@
 // Showing modal on page load
 
-// $(window).on('load',function() {
-//   $('#indexModal').modal({backdrop: 'static', keyboard: false},'show');
-// });
+$(window).on('load',function() {
+  $('#indexModal').modal({backdrop: 'static', keyboard: false},'show');
+});
 
 // Brand switcher
 

@@ -172,6 +172,11 @@ table, .table {
   border: 0 solid rgba(0, 0, 0, 0.2);
 }
 
+.index-modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
 .index-modal .modal-body {
   padding: 0;
   color: #ffffff;
@@ -382,8 +387,8 @@ font-weight: 700;
   padding: .7rem 1rem .3rem 1rem;
 }
 
-.index-modal {
-  background-color: rgba(0, 0, 0, 0.5);
+.fade {
+  transition: opacity 0.1s linear;
 }
 
 body.modal-open .main-container  {
